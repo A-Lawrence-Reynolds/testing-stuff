@@ -1,17 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 // import { Route } from "react-router-dom";
-import {Image,Container,Popover, Button, OverlayTrigger} from 'react-bootstrap'
+import {Image,Popover, Button, OverlayTrigger} from 'react-bootstrap'
 
-const BackGround = styled.div`
 
-`
 
 // adding a photo to background
-const Photo = styled.img`
-  max-width: 90%;
-  max-height: 90%;
-`
+
 const Name = styled.h1`
 
 `
@@ -25,27 +20,57 @@ const PhotoDisplay = props => {
       <Popover.Content>
         <div>
         <h2>Total of {props.info?.user?.total_photos} photos</h2>
-        <h2>find them {props.info?.user?.portfolio_url} </h2>
+        <h2>find them <a href={props.info?.user?.portfolio_url} target="_">here</a> </h2>
+        <h2>Likes on the picture are : {props.info?.user?.total_likes}</h2>
           </div>
         
       </Popover.Content>
     </Popover>
   );
   const Example = () => (
-    <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+    <OverlayTrigger trigger="click" placement="left" overlay={popover}>
       <Button variant="outline-info"><i class="fas fa-info-circle fa-2x"></i></Button>
     </OverlayTrigger>
   );
   
- 
+  const popoverSecond = (
+    <Popover id="popover-basic">
+      <Popover.Title as="h3">Equipment Used</Popover.Title>
+      <Popover.Content>
+        <div>
+        <h2>Camera make : {props.info?.exif?.make} photos</h2>
+        <h2>Model : {props.info?.exif?.model}</h2>
+        <h2>Exposure Time : {props.info?.exif?.exposure_time}</h2>
+        <h2>Aperture : {props.info?.exif?.aperture}</h2>
+        <h2>Focal Length :{props.info?.exif?.focal_length}</h2>
+        <h2>ISO :{props.info?.exif?.iso}</h2>
+          </div>
+        
+      </Popover.Content>
+    </Popover>
+  );
+  const ExampleSecond = () => (
+    <OverlayTrigger trigger="click" placement="right" overlay={popoverSecond}>
+      <Button variant="outline-info"><i class="fas fa-camera fa-2x"></i></Button>
+    </OverlayTrigger>
+  );
+  
   return(
-  <Container className='container-div'>
+    <div className="parent">
+
+    
+  
     <Image src={props.photo} fluid/>
+    
     <Name>
-      {props.info?.description}
+      {props.info?.alt_description}
     </Name>
-    <Example/>
-  </Container>
+    <div className="popover-div">
+      <Example/>
+    <ExampleSecond/> 
+    </div>
+   
+  </div>
   )
 };
 
