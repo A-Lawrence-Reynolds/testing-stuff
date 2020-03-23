@@ -1,15 +1,12 @@
 import React from "react";
-import styled from "styled-components";
-// import { Route } from "react-router-dom";
+
 import {Image,Popover, Button, OverlayTrigger} from 'react-bootstrap'
 
 
 
 // adding a photo to background
 
-const Name = styled.h1`
 
-`
 
 const PhotoDisplay = props => {
   console.log('photo takers name',props.info)
@@ -19,6 +16,8 @@ const PhotoDisplay = props => {
       <Popover.Title as="h3">{props.info?.user?.name}</Popover.Title>
       <Popover.Content>
         <div>
+        <h1>Description : <b>{props.info?.alt_description}</b></h1>
+        <br></br>
         <h2>Total of {props.info?.user?.total_photos} photos</h2>
         <h2>find them <a href={props.info?.user?.portfolio_url} target="_">here</a> </h2>
         <h2>Likes on the picture are : {props.info?.user?.total_likes}</h2>
@@ -60,15 +59,14 @@ const PhotoDisplay = props => {
 
     
   
-    <Image src={props.photo} fluid/>
+    <Image className="animated zoomIn delay-3s " src={props.photo} fluid/>
     
-    <Name>
-      {props.info?.alt_description}
-    </Name>
-    <div className="popover-div">
-      <Example/>
-    <ExampleSecond/> 
+    
+    <div className=" popover-div  ">
+      <div className='shadow-div  animated rollIn delay-3s  '><Example/></div>
+      <div className='shadow-div  animated rollIn delay-3s '><ExampleSecond/></div>
     </div>
+
    
   </div>
   )

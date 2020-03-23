@@ -5,13 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background-image: url(webb.png);
+   /* font-family: 'Open Sans Condensed', sans-serif;÷ */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Anton', sans-serif;
 }
 .parent{
+ 
   display:flex;
   flex-direction: column;
     width: fit-content;
@@ -21,12 +23,18 @@ code {
 }
 .parent img{
   height: 90vh;
-  box-shadow: #4C5B61 4px 4px;
+  box-shadow: #5FB7C7 4px 4px;
   margin-bottom: 4px;
+  margin-top: 2px;
+  background-color: #5FB7C7;
 }
 .parent button{
   height: fit-content;
+  
 }
 .popover-div{
 padding-top: 2px;
+display: flex;
+justify-content: space-evenly;
+width: -webkit-fill-available;
 }
