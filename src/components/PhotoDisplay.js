@@ -37,7 +37,7 @@ const PhotoDisplay = props => {
       <Popover.Title as="h3">Equipment Used</Popover.Title>
       <Popover.Content>
         <div>
-        <h2>Camera make : {props.info?.exif?.make} photos</h2>
+        <h2>Camera make : {props.info?.exif?.make} </h2>
         <h2>Model : {props.info?.exif?.model}</h2>
         <h2>Exposure Time : {props.info?.exif?.exposure_time}</h2>
         <h2>Aperture : {props.info?.exif?.aperture}</h2>
@@ -59,7 +59,7 @@ const PhotoDisplay = props => {
 
     
   
-    <Image className="animated zoomIn delay-3s " src={props.photo} fluid/>
+    <Image className="animated zoomIn delay-2s " src={props.photo} fluid/>
     
     
     <div className=" popover-div  ">
