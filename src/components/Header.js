@@ -7,8 +7,9 @@ const Header = () => {
 
 return(
     <>
-    <div>
-    <h1>hello</h1>
+    <div class="header">
+    <h1>RandPic</h1>
+    <p>find random pictures </p>
     </div>
     
 
