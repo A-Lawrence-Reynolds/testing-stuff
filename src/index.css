@@ -42,6 +42,7 @@ width: -webkit-fill-available;
   font-family: 'Syne Mono', monospace;
   display: flex;
   justify-content: space-between;
+  margin: 2px;
 }
 .header h1 {
   font-size: 2.5rem;
