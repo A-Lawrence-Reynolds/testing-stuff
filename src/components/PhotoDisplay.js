@@ -62,7 +62,7 @@ const PhotoDisplay = props => {
     <Image className="animated zoomIn delay-2s " src={props.photo} fluid/>
     
     
-    <div className=" popover-div  ">
+    <div className=" popover-div">
       <div className='shadow-div  animated rollIn delay-3s  '><Example/></div>
       <div className='shadow-div  animated rollIn delay-3s '><ExampleSecond/></div>
     </div>
