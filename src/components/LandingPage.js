@@ -1,9 +1,9 @@
 import React from "react";
-import {
-    BrowserRouter as Router,
-    Link,
+// import {
+//     BrowserRouter as Router,
+//     Link,
 
-} from "React-router-dom";
+// } from "React-router-dom";
 
 // add landing page CTA and get a slid into mane page working
 export default function LandingPage(){

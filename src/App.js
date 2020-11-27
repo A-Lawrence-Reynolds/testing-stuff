@@ -9,13 +9,14 @@ import LandingPage from "./components/LandingPage";
 function App() {
   return (
     <div className="App">
-      <Header/> 
+      <Header/>
+      <LandingPage /> 
       <Route 
       path="/"
       exact
       render={props => <PhotoApiCall {...props}/>}
       />
-      <LandingPage />
+      
       
       
       
