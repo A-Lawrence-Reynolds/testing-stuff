@@ -16,10 +16,6 @@ function App() {
       exact
       render={props => <PhotoApiCall {...props}/>}
       />
-      
-      
-      
-      
     </div>
   );
 }
