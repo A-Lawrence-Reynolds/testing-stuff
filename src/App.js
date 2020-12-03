@@ -10,9 +10,11 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <LandingPage /> 
+      <LandingPage
+      path='/'
+      /> 
       <Route 
-      path="/"
+      path="Photo"
       exact
       render={props => <PhotoApiCall {...props}/>}
       />
