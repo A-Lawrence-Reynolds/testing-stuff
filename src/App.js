@@ -12,6 +12,7 @@ function App() {
       <Header/>
       <LandingPage
       path='/'
+      exact
       /> 
       <Route 
       path="Photo"

@@ -7,7 +7,7 @@ const Header = () => {
 
 return(
     <>
-    <div class="header">
+    <div className="header">
     <h1>RandPic</h1>
     <p>find random pictures </p>
     </div>

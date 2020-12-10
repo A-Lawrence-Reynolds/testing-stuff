@@ -19,8 +19,8 @@ const PhotoDisplay = props => {
         <h1>Description : <b>{props.info?.alt_description}</b></h1>
         <br></br>
         <h2>Total of {props.info?.user?.total_photos} photos</h2>
-        <h2>find them <a href={props.info?.user?.portfolio_url} target="_">here</a> </h2>
-        <h2>Likes on the picture are : {props.info?.user?.total_likes}</h2>
+        <h2>find them <a href={props.info?.user?.portfolio_url} target="_"> here</a> </h2>
+        <h2>Likes : {props.info?.user?.total_likes}</h2>
           </div>
         
       </Popover.Content>
@@ -41,8 +41,8 @@ const PhotoDisplay = props => {
         <h2>Model : {props.info?.exif?.model}</h2>
         <h2>Exposure Time : {props.info?.exif?.exposure_time}</h2>
         <h2>Aperture : {props.info?.exif?.aperture}</h2>
-        <h2>Focal Length :{props.info?.exif?.focal_length}</h2>
-        <h2>ISO :{props.info?.exif?.iso}</h2>
+        <h2>Focal Length : {props.info?.exif?.focal_length}</h2>
+        <h2>ISO : {props.info?.exif?.iso}</h2>
           </div>
         
       </Popover.Content>

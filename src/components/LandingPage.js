@@ -13,6 +13,9 @@ export default function LandingPage(){
         <h1>Hello
 
         </h1>
+
+        <h2>Welcome to rand Pic's </h2>
+        <h3></h3>
     </div>
 
    </>
