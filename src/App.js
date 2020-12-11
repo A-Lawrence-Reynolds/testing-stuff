@@ -12,11 +12,11 @@ function App() {
       <Header/>
       <LandingPage
       path='/'
-      exact
+      
       /> 
       <Route 
       path="Photo"
-      exact
+      
       render={props => <PhotoApiCall {...props}/>}
       />
     </div>
