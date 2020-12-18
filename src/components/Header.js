@@ -12,8 +12,8 @@ return(
     <h1>RandPic</h1>
     <p>find random pictures </p>
     </div>
-    <div>
-        <nav>
+    <div className="navButtonDiv">
+        <nav >
             <Link to='/PhotoDisplay'> <button> to the Photos!</button></Link> 
         </nav>
     </div>

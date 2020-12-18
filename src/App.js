@@ -4,6 +4,7 @@ import PhotoApiCall from "./components/PhotoApiCall";
 import Header from "./components/Header"
 import "./App.css";
 import LandingPage from "./components/LandingPage";
+import PhotoDisplay from "./components/PhotoDisplay";
 
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
       
       /> 
       <Route 
-      path="Photo"
+      path="/Photo"
       
-      render={props => <PhotoApiCall {...props}/>}
+      render={props => <PhotoDisplay {...props}/>}
       />
     </div>
   );

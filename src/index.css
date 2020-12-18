@@ -50,3 +50,11 @@ width: -webkit-fill-available;
 .header p {
   font-size: 1.3rem;
 }
+.navButtonDiv{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 17px;
+}
+.navButtonDiv button {
+  border-style: none;
+}
