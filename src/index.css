@@ -57,5 +57,10 @@ width: -webkit-fill-available;
 }
 .navButtonDiv button {
   border-style: none;
-  width: 10px;
+  width: 20px;
+  height:15px;
+  color: #fff;
+  background-color: #5FB7C7;
+
+  
 }
