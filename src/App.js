@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import PhotoApiCall from "./components/PhotoApiCall";
+// import PhotoApiCall from "./components/PhotoApiCall";
 import Header from "./components/Header"
 import "./App.css";
 import LandingPage from "./components/LandingPage";
