@@ -54,16 +54,18 @@ width: -webkit-fill-available;
   display: flex;
   justify-content: flex-end;
   padding-right: 17px;
+
   /* clip-path: ellipse(35% 17% at 50% 50%); */
 
 
 }
 .navButtonDiv button {
-  border-style: none;
+  border-style: line;
   width: 45px;
   height:45px;
   color: #fff;
   background-color: #5FB7C7;
+  border-radius: 10px;
  /* need to add clip path to make shape of button correct  */
 
   
