@@ -50,6 +50,7 @@ width: -webkit-fill-available;
 }
 .header p {
   font-size: 1.4rem;
+  padding-top: 3px;
 }
 /* this is for the landing page button to take you to view the random photo generator  */
 .navButtonDiv{
