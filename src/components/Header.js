@@ -14,7 +14,7 @@ return(
     </div>
     <div className="navButtonDiv">
         <nav >
-            <Link to='/PhotoDisplay'> <button> to the Photos!</button></Link> 
+            <Link to='/PhotoDisplay'> <button>to the Photos!</button></Link> 
         </nav>
     </div>
     
