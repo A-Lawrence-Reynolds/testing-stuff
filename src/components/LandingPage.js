@@ -10,9 +10,7 @@ export default function LandingPage(){
     return(
    <>
     <div className="LandingPageMain">
-        <h1>Hello
-
-        </h1>
+       {/* Landing page content   */}
 
         <h2>Welcome to rand Pic's </h2>
         <h3>find a random picture</h3>
@@ -22,8 +20,6 @@ export default function LandingPage(){
     </div>
 
    </>
-
-
 
 
     )
