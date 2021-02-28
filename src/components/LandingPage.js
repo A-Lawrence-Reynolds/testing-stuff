@@ -13,7 +13,7 @@ export default function LandingPage(){
        {/* Landing page content   */}
 
         <h2>Welcome to rand Pic's </h2>
-        <h3>find A random picture</h3>
+        <h3>find a random picture</h3>
         <div className="LandingPageSecondary" > 
              
         </div>
