@@ -11,7 +11,7 @@ export default function LandingPage(){
    <>
     <div className="LandingPageMain">
        {/* Landing page content   */}
-
+        <p>this is a paragraph tag.</p>
         <h2>Welcome to rand Pic's </h2>
         <h3>find a random picture</h3>
         <div className="LandingPageSecondary" > 
