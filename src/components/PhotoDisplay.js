@@ -27,7 +27,7 @@ const PhotoDisplay = props => {
     </Popover>
   );
   const Example = () => (
-    <OverlayTrigger trigger="click" placement="left" overlay={popover}>
+    <OverlayTrigger trigger="click" placement="center" overlay={popover}>
       <Button variant="outline-info"><i class="fas fa-info-circle fa-2x"></i></Button>
     </OverlayTrigger>
   );
