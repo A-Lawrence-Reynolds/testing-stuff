@@ -15,8 +15,9 @@ return(
     <div className="navButtonDiv">
 
         <nav >
-            <Link to='/LandingPage'><button>Rand Pics</button></Link>
-            <Link to='/PhotoDisplay'> <button>to the Photos!</button></Link> 
+
+            <Link to='/LandingPage'><button className='menu-button'>Rand Pics</button></Link>
+            <Link to='/PhotoDisplay'> <button className='menu-button'>to the Photos!</button></Link> 
         </nav>
     </div>
     
