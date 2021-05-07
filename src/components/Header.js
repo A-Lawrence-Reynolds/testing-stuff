@@ -12,6 +12,9 @@ return(
     <h1>RandPic</h1>
     <p>find random pictures </p>
     <h1>welcome </h1>
+    <p>
+        Here at ramnd pics you can find lots of random pictures and info about there content even tools used to take the photo 
+    </p>
     </div>
     <div className="navButtonDiv">
 
