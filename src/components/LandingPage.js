@@ -18,7 +18,7 @@ export default function LandingPage(){
              
         </div>
     </div>
-
+    {/* add about the page in footer or build another page */}
    </>
 
 
