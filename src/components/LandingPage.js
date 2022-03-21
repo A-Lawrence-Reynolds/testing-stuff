@@ -19,7 +19,6 @@ export default function LandingPage() {
       <div>
         <p>Made by the firey beard developer.</p>
       </div>
-      {/* add about the page in footer or build another page */}
     </>
   );
 }
